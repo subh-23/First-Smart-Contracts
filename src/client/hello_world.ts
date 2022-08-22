@@ -14,6 +14,8 @@ import {
 import fs from 'mz/fs';
 import path from 'path';
 import * as borsh from 'borsh';
+import * as BufferLayout from '@solana/buffer-layout';
+import {Buffer} from 'buffer';
 
 import {getPayer, getRpcUrl, createKeypairFromFile} from './utils';
 
